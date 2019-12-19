@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A19EDAFC2398C8A4006EFB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDAFB2398C8A4006EFB54 /* AppDelegate.swift */; };
+		A19EDAFE2398C8A4006EFB54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDAFD2398C8A4006EFB54 /* SceneDelegate.swift */; };
+		A19EDB002398C8A4006EFB54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDAFF2398C8A4006EFB54 /* ContentView.swift */; };
+		A19EDB022398C8B2006EFB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19EDB012398C8B2006EFB54 /* Assets.xcassets */; };
+		A19EDB052398C8B2006EFB54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19EDB042398C8B2006EFB54 /* Preview Assets.xcassets */; };
+		A19EDB082398C8B3006EFB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19EDB062398C8B3006EFB54 /* LaunchScreen.storyboard */; };
+		A19EDB132398C8B3006EFB54 /* AVID_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDB122398C8B3006EFB54 /* AVID_PlannerTests.swift */; };
+		A19EDB1E2398C8B3006EFB54 /* AVID_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDB1D2398C8B3006EFB54 /* AVID_PlannerUITests.swift */; };
+		A19EDB2C2398CC01006EFB54 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDB2B2398CC01006EFB54 /* Data.swift */; };
+		A19EDB322398D126006EFB54 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDB312398D126006EFB54 /* Main.swift */; };
+		A19EDB362398D2E1006EFB54 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = A19EDB352398D2E1006EFB54 /* main.json */; };
+		A19EDB382399C2E4006EFB54 /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDB372399C2E4006EFB54 /* MainItem.swift */; };
+		A19EDB3A239A3052006EFB54 /* MainRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EDB39239A3052006EFB54 /* MainRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A19EDB0F2398C8B3006EFB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A19EDAF02398C8A4006EFB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19EDAF72398C8A4006EFB54;
+			remoteInfo = "AVID Planner";
+		};
+		A19EDB1A2398C8B3006EFB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A19EDAF02398C8A4006EFB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19EDAF72398C8A4006EFB54;
+			remoteInfo = "AVID Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A19EDAF82398C8A4006EFB54 /* AVID Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVID Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19EDAFB2398C8A4006EFB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A19EDAFD2398C8A4006EFB54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A19EDAFF2398C8A4006EFB54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A19EDB012398C8B2006EFB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A19EDB042398C8B2006EFB54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A19EDB072398C8B3006EFB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A19EDB092398C8B3006EFB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19EDB0E2398C8B3006EFB54 /* AVID PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVID PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19EDB122398C8B3006EFB54 /* AVID_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVID_PlannerTests.swift; sourceTree = "<group>"; };
+		A19EDB142398C8B3006EFB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19EDB192398C8B3006EFB54 /* AVID PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVID PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19EDB1D2398C8B3006EFB54 /* AVID_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVID_PlannerUITests.swift; sourceTree = "<group>"; };
+		A19EDB1F2398C8B3006EFB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19EDB2B2398CC01006EFB54 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A19EDB312398D126006EFB54 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		A19EDB352398D2E1006EFB54 /* main.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		A19EDB372399C2E4006EFB54 /* MainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
+		A19EDB39239A3052006EFB54 /* MainRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19EDAF52398C8A4006EFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19EDB0B2398C8B3006EFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19EDB162398C8B3006EFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A19EDAEF2398C8A4006EFB54 = {
+			isa = PBXGroup;
+			children = (
+				A19EDAFA2398C8A4006EFB54 /* AVID Planner */,
+				A19EDB112398C8B3006EFB54 /* AVID PlannerTests */,
+				A19EDB1C2398C8B3006EFB54 /* AVID PlannerUITests */,
+				A19EDAF92398C8A4006EFB54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19EDAF92398C8A4006EFB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19EDAF82398C8A4006EFB54 /* AVID Planner.app */,
+				A19EDB0E2398C8B3006EFB54 /* AVID PlannerTests.xctest */,
+				A19EDB192398C8B3006EFB54 /* AVID PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19EDAFA2398C8A4006EFB54 /* AVID Planner */ = {
+			isa = PBXGroup;
+			children = (
+				A19EDB2B2398CC01006EFB54 /* Data.swift */,
+				A19EDB312398D126006EFB54 /* Main.swift */,
+				A19EDAFB2398C8A4006EFB54 /* AppDelegate.swift */,
+				A19EDAFD2398C8A4006EFB54 /* SceneDelegate.swift */,
+				A19EDAFF2398C8A4006EFB54 /* ContentView.swift */,
+				A19EDB372399C2E4006EFB54 /* MainItem.swift */,
+				A19EDB39239A3052006EFB54 /* MainRow.swift */,
+				A19EDB012398C8B2006EFB54 /* Assets.xcassets */,
+				A19EDB062398C8B3006EFB54 /* LaunchScreen.storyboard */,
+				A19EDB092398C8B3006EFB54 /* Info.plist */,
+				A19EDB032398C8B2006EFB54 /* Preview Content */,
+				A19EDB352398D2E1006EFB54 /* main.json */,
+			);
+			path = "AVID Planner";
+			sourceTree = "<group>";
+		};
+		A19EDB032398C8B2006EFB54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A19EDB042398C8B2006EFB54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A19EDB112398C8B3006EFB54 /* AVID PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A19EDB122398C8B3006EFB54 /* AVID_PlannerTests.swift */,
+				A19EDB142398C8B3006EFB54 /* Info.plist */,
+			);
+			path = "AVID PlannerTests";
+			sourceTree = "<group>";
+		};
+		A19EDB1C2398C8B3006EFB54 /* AVID PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A19EDB1D2398C8B3006EFB54 /* AVID_PlannerUITests.swift */,
+				A19EDB1F2398C8B3006EFB54 /* Info.plist */,
+			);
+			path = "AVID PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19EDAF72398C8A4006EFB54 /* AVID Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19EDB222398C8B3006EFB54 /* Build configuration list for PBXNativeTarget "AVID Planner" */;
+			buildPhases = (
+				A19EDAF42398C8A4006EFB54 /* Sources */,
+				A19EDAF52398C8A4006EFB54 /* Frameworks */,
+				A19EDAF62398C8A4006EFB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVID Planner";
+			productName = "AVID Planner";
+			productReference = A19EDAF82398C8A4006EFB54 /* AVID Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A19EDB0D2398C8B3006EFB54 /* AVID PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19EDB252398C8B3006EFB54 /* Build configuration list for PBXNativeTarget "AVID PlannerTests" */;
+			buildPhases = (
+				A19EDB0A2398C8B3006EFB54 /* Sources */,
+				A19EDB0B2398C8B3006EFB54 /* Frameworks */,
+				A19EDB0C2398C8B3006EFB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A19EDB102398C8B3006EFB54 /* PBXTargetDependency */,
+			);
+			name = "AVID PlannerTests";
+			productName = "AVID PlannerTests";
+			productReference = A19EDB0E2398C8B3006EFB54 /* AVID PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A19EDB182398C8B3006EFB54 /* AVID PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19EDB282398C8B3006EFB54 /* Build configuration list for PBXNativeTarget "AVID PlannerUITests" */;
+			buildPhases = (
+				A19EDB152398C8B3006EFB54 /* Sources */,
+				A19EDB162398C8B3006EFB54 /* Frameworks */,
+				A19EDB172398C8B3006EFB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A19EDB1B2398C8B3006EFB54 /* PBXTargetDependency */,
+			);
+			name = "AVID PlannerUITests";
+			productName = "AVID PlannerUITests";
+			productReference = A19EDB192398C8B3006EFB54 /* AVID PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A19EDAF02398C8A4006EFB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Nero Studios";
+				TargetAttributes = {
+					A19EDAF72398C8A4006EFB54 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					A19EDB0D2398C8B3006EFB54 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A19EDAF72398C8A4006EFB54;
+					};
+					A19EDB182398C8B3006EFB54 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A19EDAF72398C8A4006EFB54;
+					};
+				};
+			};
+			buildConfigurationList = A19EDAF32398C8A4006EFB54 /* Build configuration list for PBXProject "AVID Planner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A19EDAEF2398C8A4006EFB54;
+			productRefGroup = A19EDAF92398C8A4006EFB54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19EDAF72398C8A4006EFB54 /* AVID Planner */,
+				A19EDB0D2398C8B3006EFB54 /* AVID PlannerTests */,
+				A19EDB182398C8B3006EFB54 /* AVID PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19EDAF62398C8A4006EFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19EDB082398C8B3006EFB54 /* LaunchScreen.storyboard in Resources */,
+				A19EDB052398C8B2006EFB54 /* Preview Assets.xcassets in Resources */,
+				A19EDB362398D2E1006EFB54 /* main.json in Resources */,
+				A19EDB022398C8B2006EFB54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19EDB0C2398C8B3006EFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19EDB172398C8B3006EFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A19EDAF42398C8A4006EFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19EDB322398D126006EFB54 /* Main.swift in Sources */,
+				A19EDB3A239A3052006EFB54 /* MainRow.swift in Sources */,
+				A19EDAFC2398C8A4006EFB54 /* AppDelegate.swift in Sources */,
+				A19EDAFE2398C8A4006EFB54 /* SceneDelegate.swift in Sources */,
+				A19EDB002398C8A4006EFB54 /* ContentView.swift in Sources */,
+				A19EDB2C2398CC01006EFB54 /* Data.swift in Sources */,
+				A19EDB382399C2E4006EFB54 /* MainItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19EDB0A2398C8B3006EFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19EDB132398C8B3006EFB54 /* AVID_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19EDB152398C8B3006EFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19EDB1E2398C8B3006EFB54 /* AVID_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A19EDB102398C8B3006EFB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19EDAF72398C8A4006EFB54 /* AVID Planner */;
+			targetProxy = A19EDB0F2398C8B3006EFB54 /* PBXContainerItemProxy */;
+		};
+		A19EDB1B2398C8B3006EFB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19EDAF72398C8A4006EFB54 /* AVID Planner */;
+			targetProxy = A19EDB1A2398C8B3006EFB54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A19EDB062398C8B3006EFB54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19EDB072398C8B3006EFB54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A19EDB202398C8B3006EFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A19EDB212398C8B3006EFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A19EDB232398C8B3006EFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AVID Planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AVID Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thenerodev.AVID-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A19EDB242398C8B3006EFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AVID Planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AVID Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thenerodev.AVID-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A19EDB262398C8B3006EFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AVID PlannerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thenerodev.AVID-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVID Planner.app/AVID Planner";
+			};
+			name = Debug;
+		};
+		A19EDB272398C8B3006EFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AVID PlannerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thenerodev.AVID-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVID Planner.app/AVID Planner";
+			};
+			name = Release;
+		};
+		A19EDB292398C8B3006EFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AVID PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thenerodev.AVID-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AVID Planner";
+			};
+			name = Debug;
+		};
+		A19EDB2A2398C8B3006EFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AVID PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thenerodev.AVID-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AVID Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A19EDAF32398C8A4006EFB54 /* Build configuration list for PBXProject "AVID Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19EDB202398C8B3006EFB54 /* Debug */,
+				A19EDB212398C8B3006EFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19EDB222398C8B3006EFB54 /* Build configuration list for PBXNativeTarget "AVID Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19EDB232398C8B3006EFB54 /* Debug */,
+				A19EDB242398C8B3006EFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19EDB252398C8B3006EFB54 /* Build configuration list for PBXNativeTarget "AVID PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19EDB262398C8B3006EFB54 /* Debug */,
+				A19EDB272398C8B3006EFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19EDB282398C8B3006EFB54 /* Build configuration list for PBXNativeTarget "AVID PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19EDB292398C8B3006EFB54 /* Debug */,
+				A19EDB2A2398C8B3006EFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A19EDAF02398C8A4006EFB54 /* Project object */;
+}

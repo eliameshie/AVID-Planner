@@ -1,0 +1,47 @@
+[
+    {
+        "id": 101,
+        "name": "AVID",
+        "category": "AVID" ,
+        "imageName": "avidico",
+        "description": "AVID (Advancement Via Individual Determination) is a nonprofit that changes lives by helping schools shift to a more equitable, student-centered approach. We train 80,000 educators annually to close the opportunity gap, so they can prepare all students for college, careers, and life."
+        
+    },
+    
+    {
+        "id": 102,
+        "name": "Agenda",
+        "category": "Organization" ,
+        "imageName": "agenda",
+        "description": "This is an agenda that'll allow AVID students to effieciently keep hold of their daily tasks"
+        
+    },
+    
+    {
+        "id": 103,
+        "name": "Cornell Notes",
+        "category": "Utilities" ,
+        "imageName": "cornell",
+        "description": "Cornell Notes wre designed by professor at Cornell University in order to help students retain information"
+        
+    },
+
+    {
+        "id": 104,
+        "name": "TRF",
+        "category": "Tutorials" ,
+        "imageName": "trf",
+        "description": "The Tutorial Request Form (TRF) allows for AVID students to request help in certain subjects that they struggle in."
+        
+    },
+
+    {
+        "id": 105,
+        "name": "TRD",
+        "category": "Tutorials" ,
+        "imageName": "trf",
+        "description": "The Tutorial Request Form (TRD) is an alternate assignment to a TRF, but works in the same way to help students in certain subjects of need."
+        
+    }
+    
+]
